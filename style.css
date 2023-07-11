@@ -1,0 +1,74 @@
+h6{
+  text-transform: capitalize;
+  font-size: 32px;
+}
+h5{
+  font-size: 26px;
+}
+.navbar-brand img{
+  width: 250px;
+}
+.carousel img{
+  height: 400px;
+}
+.contents{
+  margin-top: 15px;
+  text-align: center;
+}
+.isi{
+  margin-bottom: 15px;
+}
+.footer{
+  background-color: rgb(114, 112, 120);
+  height: 50px;
+  margin-top: 10px;
+}
+.inputan{
+  margin-top: 15px;
+}
+.login{
+  padding: 140px 0px;
+}
+.keranjang{
+  background-color: yellow;
+}
+.nama{
+  width: 200px;
+}
+.menu-bawah{
+  display: none;
+}
+.menu-search{
+  display: block;
+}
+/* checkout */
+.checkout img{
+  width: 100px;
+}
+.checkout tr td{
+  font-size: 10px;
+  font-weight: bold;
+}
+.gambar{
+  width: 200px;
+}
+
+
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .menu-bawah{
+    display: block;
+  }
+  .menu-search{
+    display: none;
+  }
+  /* checkout */
+  .checkout img{
+    width: 150px;
+  }
+  .checkout tr td{
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
